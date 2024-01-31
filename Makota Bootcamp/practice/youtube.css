@@ -1,0 +1,42 @@
+*{
+    font-family:sans-serif;
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+}
+.navbar{
+    background-color: rgb(21, 17, 17);
+    height: 56px;
+    align-items: center;
+    display: flex;
+    
+}
+.menu{
+margin-right: 70px;
+}
+.name{
+margin-right: 80px;
+}
+.search{
+    height: 40px;
+    width: 536px;
+   align-items: center;
+   justify-content: center;
+   border-radius: 25px;
+   margin-left: 200px;
+  
+}
+input{
+   height: 26px;
+   width: 535px;
+   margin-bottom: 0px;
+   border: none;
+   
+  
+}
+.icon{
+    height: 26px;
+    width: 20px;
+    margin-left: 10px;
+
+}

@@ -1,0 +1,103 @@
+
+
+a{
+  text-decoration: none;
+  color: aliceblue;
+  
+}.navbar{
+    display: flex;
+    background-color: #ff5d8f;
+    height: 60px;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 1000;
+    color: aliceblue;
+    position: static;
+    
+
+   }
+.border{
+    border:none;
+    transition: border 0.2s;
+}
+.border:hover{
+  border: 2.5px solid white;
+}
+
+.glow{
+height: 25px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: rgb(216, 14, 122);
+color: white;
+display: flex;
+}
+
+.intro{
+  display: flex;
+  background-color: rgb(234, 60, 144);
+  width: 200px;
+  color: white;
+  border-radius: 50px;
+  height: 100px;
+  box-shadow: 4px 4px 80px 1px rgb(177, 18, 185);
+  margin-left: 200px;
+  align-items: center;
+  text-align: center;
+  animation-name: ayu;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes ayu {
+  from{ width: 200px;
+    color: aqua;
+
+  }
+  to{
+    width: 100px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+}
+.main{
+  display: flex;
+  justify-content: space-evenly;
+}
+p{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: medium;
+ margin-left: 10px;
+ margin-right: 10px;
+ text-align: justify;
+}
+  
+.bro{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 20px;
+}
+img{
+  width: 500px;
+}
+.left{
+ 
+  margin-right: 40px;
+}
+/** for contact**/
+
+.box{
+  height: 200px;
+  background-color: #ff5d8f;
+  align-items: centre;
+justify-content: centre;
+}
+h1{
+  color: white;
+  justify-content: centre;
+  align-items: center;
+}  
+                                                                                                                

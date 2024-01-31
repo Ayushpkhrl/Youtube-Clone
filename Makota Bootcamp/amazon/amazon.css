@@ -1,0 +1,227 @@
+*{
+    margin: 0px;
+    font-family:Arial ;
+
+}
+.navbar{
+    height: 60px;
+background-color: #0F1111;
+display: flex;
+align-items: center;
+padding: 10px;
+justify-content: space-evenly;
+
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image:url("amajon.png") ;
+    width: 166px;
+    height: 50px;
+    background-size: cover;
+    border:  20px red;
+    
+
+}
+
+    
+
+
+
+.ad-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    align-items: center;
+}
+.add-second{
+    font-size: 1rem;
+    color: rgb(255, 247, 0);
+    margin: 3px;
+    align-items: center;
+
+}
+.add-icon{
+    color: #ff0000;
+    align-items: center;
+    padding-left: 94px;
+
+}
+.nav-adress{
+padding: 10px;
+border: none;
+transition: border 0.5s;
+}
+i{
+    padding: 20px;
+}
+.nav-adress:hover{
+    border: 1.5px solid white;
+
+}
+.nav-search{
+  display: flex;
+  width: 620px;
+  height: 40px ;
+  border-radius: 3px;
+
+ 
+}
+.nav-search:hover{
+    border: 1.5px solid orange;
+}
+.search-icon{
+    background-color: #eec00aef;
+   
+    border-color: #ff0000;
+   border-top-right-radius: 6px;
+   border-bottom-right-radius: 6px;
+    text-align: center;
+width: 45px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: black;
+font-size: 1.2rem;
+}
+.search-select{
+    background-color: #febd68;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 6px;
+}
+.search-input{
+    width:100%;
+    border: none;
+}
+span{
+    font-size: 0.7rem;
+    color: white;
+}
+.nav-second{
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 700;
+
+}
+.nav-return{
+   
+    border: none;
+    transition: border 0.5s;
+    }
+    
+.nav-return:hover{
+        border: 1.5px solid white;
+    
+}
+.nav-signin{
+    border:none;
+    transition: border 0.5ms;
+}
+.nav-signin:hover{
+    border: 1.5px solid white;
+}
+.logo{
+    border: none;
+    transition: border 0.5px;
+}
+.logo:hover{
+    border: 1.5px solid white;
+
+}
+.nav-cart i{
+    color: rgb(255, 192, 3);
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight:700;
+    color: white;
+    border: none;
+}
+.nav-cart:hover{
+    border:1.5px solid white;
+}
+.panel{
+    height: 30px;
+    background-color: #17191c;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display:inline ;
+    justify-content: space-evenly;
+    margin-left: 15px;
+}
+.panel-ops{
+    font: size 0.85rem; 
+    width: 70%;
+}
+.hero-section{
+    background-image: url(Homepage_DesktopHeroTemplate_3000x1200_Unrec._CB570906581_.jpg);
+background-size:cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    text-align: center;
+
+}
+.hero-msg{
+    background-color:white ;
+    color: black;
+    height: 40px;
+    display: flex;
+    font-size: 0.85rem;
+    bottom: 25px;
+    width: 80%;
+    margin-bottom: 80px;
+    align-items: centre;
+    justify-content: center;
+
+}
+.hero-msg a{
+    color: #007185;
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    border: 2px solid black;
+    height: 400px;
+    width:350px;
+    justify-content: center;
+}
+.box:hover{
+    border:1.5px solid red;
+  
+}
+.box-img{
+    background-image: url(himalaya.png);
+    height: 300px;
+    background-image: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+
+.content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+
+    
+}
+.box2-img{
+    background-image: url(pc.img);
+    height: 300px;
+    background-image: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
