@@ -21,29 +21,22 @@
 margin-left: 30px;
 margin-right: 50px;
 }
+.red{
+    color: red;
+   
+}
 .name{
+    display: flex;
 margin-right: 1px;
 padding-left: 20px;
 }
-.search{
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    height: 40px;
-    width: 536px;
-   align-items: center;
-   justify-content: center;
-   margin-left: 200px;
-   
-  
-}
+
 input{
    height: 26px;
    width: 525px;
    margin-bottom: 0px;
    border: none;
-   margin-left: 3px;
-   border-top-right-radius: 25px;
-   border-bottom-right-radius: 25px;
+   margin-left: 300px;
    border-top-left-radius: 25px;
    border-bottom-left-radius: 25px;
    background-color: rgb(34, 30, 30);
@@ -51,16 +44,17 @@ input{
   
 }
 .icon{
-    margin-left: 0px;
-    height: 40px;
+  border: 1px solid black;
+    height: 26px;
     width: 40px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
+    margin-left: 3px;
 }
 .mag{
-    background-color: rgb(0, 0, 0);
-    height: 40px;
+    background-color: rgb(34, 30, 30);
+    height: 26px;
     border: none;
-    
+   
 }
 .mic{
     height: 40px;
@@ -107,4 +101,54 @@ margin-left: -30px;
 }
 .b{
 margin-left: -20px;
+}
+.hero{
+    background-color: black;
+    height: 999px;
+   
+}
+.flex1{
+    display: flex;
+justify-content: space-evenly;
+
+}
+.flex2{
+    display: flex;
+justify-content: space-evenly;
+}
+.box1{
+    align-items: center;
+   padding-top: 100px;
+   padding-left: 0px;
+   width: 300px;
+   border: none;
+   
+}
+img{
+    height: 200px;
+    width: 300px;
+    border-radius: 10%;
+    padding-left: 0px;
+}
+.tittle{
+    padding-top: 4px;
+    font-size:small;
+    text-align: justify;
+}
+.box2{
+    align-items: center;
+   padding-top: 100px;
+   padding-left: 0px;
+   width: 300px;
+   border: none;
+   
+}
+.box3{
+    align-items: center;
+   padding-top: 100px;
+   
+   width: 300px;
+   border: none;
+   
+
 }
