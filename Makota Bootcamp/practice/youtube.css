@@ -1,14 +1,17 @@
 *{
     font-family:sans-serif;
-    background-color: black;
+   
     color: white;
     margin-top: 0px;
 }
 .navbar{
     background-color: rgb(21, 17, 17);
+   
     height: 56px;
     align-items: center;
     display: flex;
+    margin-right: 0px;
+    position: static;
     
 }
 .menu{
@@ -18,25 +21,57 @@ margin-right: 70px;
 margin-right: 80px;
 }
 .search{
+    background-color: rgb(0, 0, 0);
+    display: flex;
     height: 40px;
     width: 536px;
    align-items: center;
    justify-content: center;
-   border-radius: 25px;
    margin-left: 200px;
+   border-top-left-radius: 25px;
+   border-bottom-left-radius: 25px;
   
 }
 input{
    height: 26px;
-   width: 535px;
+   width: 525px;
    margin-bottom: 0px;
    border: none;
-   
+   margin-left: 3px;
+   border-top-right-radius: 25px;
+   border-bottom-right-radius: 25px;
+   border-top-left-radius: 25px;
+   border-bottom-left-radius: 25px;
+   background-color: rgb(34, 30, 30);
+   color: white;
   
 }
 .icon{
-    height: 26px;
-    width: 20px;
-    margin-left: 10px;
-
+    margin-left: 0px;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+}
+.mag{
+    background-color: rgb(0, 0, 0);
+    height: 40px;
+    border: none;
+    
+}
+.mic{
+    height: 40px;
+    background-color: black;
+    border: none;
+    margin-left: 90px;
+    width: 40px;
+    
+}
+.video{
+    margin-left: 330px;
+}
+.noti{
+    margin-left: 19px;
+}
+.user{
+    margin-left: 20px;
 }
