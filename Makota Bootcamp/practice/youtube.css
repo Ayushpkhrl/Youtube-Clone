@@ -14,7 +14,7 @@
     align-items: center;
     display: flex;
     margin-right: 0px;
-    position: static;
+    position: fixed;
     
 }
 .menu{
@@ -89,8 +89,9 @@ input{
     display: flex;
     height: 40px;
     background-color: rgb(34, 30, 30);
-   align-items: center;
-    justify-content:space-evenly
+ padding-top: 64px;
+    justify-content:space-evenly;
+    
     
 }
 .h{
