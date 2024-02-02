@@ -1,4 +1,15 @@
 .nav{
-    height: 40px;
+    margin-top:0px;
+    height: 65px;
     background-color: #131E30;
+    align-items: center;
+    
+}
+.name{
+    
+    font-size: larger;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 1000;
+    font-style: oblique;
 }
