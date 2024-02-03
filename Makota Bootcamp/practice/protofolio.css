@@ -1,15 +1,123 @@
-.nav{
+.nav-main{
+    display: flex;
+    width: 100vw;
     margin-top:0px;
     height: 65px;
     background-color: #131E30;
     align-items: center;
-    
+    position: fixed;    
 }
+
+.nav-bar{
+    padding-left: 100px;
+    display: flex;
+  
+}
+
 .name{
-    
     font-size: larger;
     color: white;
     font-family: sans-serif;
     font-weight: 1000;
     font-style: oblique;
+}
+
+.link{
+    margin-left: 900px;
+    display: flex;
+    color: white;
+    font-family: Segoe UI, 'Tahoma', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    align-items: center;
+    
+}
+
+.border:hover{
+color: #64ffda;
+}
+
+.home{
+
+}
+
+.abt{
+    margin-left: 30px;
+
+}
+
+.work{
+    margin-left: 30px;
+
+}
+
+.time{
+    margin-left: 30px;
+
+}
+
+.blog{
+    margin-left: 30px;
+
+}
+
+.contact{
+    margin-left:30px;
+
+}
+
+.body-main{
+    height: 50vw;
+    background-color: #131E30;
+    padding-top: 80px;
+    color: white;
+}
+.container{
+    background-color: #131E30;
+    height: 600px;
+    width: 1400px;
+margin-top: 70px;
+    margin-left: 30px;
+}
+.hlo{
+    color: aqua;
+    padding-top: 100PX;
+    padding-left: 40px;
+    font-family: 'tahoma';
+    
+}
+.int{
+    color: #ffffff;
+    padding-top: 10px;
+    padding-left: 30px;
+    font-weight: 1000;
+    font-size: xx-large;
+    font-family: popins,sans-serif;
+}
+
+.b{
+    margin-left: 90px;
+    margin-top: -44px;
+    color: aqua;
+}
+.c{
+    font-weight: 100;
+    font-size: 2.4rem;
+}
+.d{
+    border: none;
+    height: 30px;
+    width: 125px;
+    font-weight: 100;
+    font-size: large;
+    font-family: popins,sans-serif;
+    color:black ;
+    background-color: #64ffda;
+ border-radius: 25px;
+}
+
+img{
+    margin-left: 1000px;
+    height: 350px;
+    margin-top: -125px;
+    box-shadow: 50px 50px aqua;
 }
