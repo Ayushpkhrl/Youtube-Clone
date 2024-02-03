@@ -35,10 +35,11 @@
 .border:hover{
 color: #64ffda;
 }
+a{
+    text-decoration: none;
+    color: white;
+    }
 
-.home{
-
-}
 
 .abt{
     margin-left: 30px;
@@ -65,7 +66,7 @@ color: #64ffda;
 
 }
 
-.body-main{
+#home {
     height: 50vw;
     background-color: #131E30;
     padding-top: 80px;
