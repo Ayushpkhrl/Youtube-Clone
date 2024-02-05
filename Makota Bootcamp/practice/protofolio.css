@@ -127,11 +127,12 @@ a{
     box-shadow: 50px 50px aqua;
 }
 .topic{
-    height: 90vw;
+    height: 70vw;
     background-color: #131E30;
     color: white;
 }
 .top{
+    color: #ffffff;
      text-align: center;
      font-size: xx-large;
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -198,24 +199,44 @@ color: aqua;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  font-style: oblique;
  font-size: larger;
+ font-weight: bolder;
  padding-left: 1300px;
  margin-top: -120px;
 }
 .git{
-    color: #ffffff;
+    color: #32ca9c;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
     font-weight: 900;
     font-size: xx-large;
-    padding-top: 10px;
-    margin-left: 900px;
+    margin-top: 100px;
+    margin-left: 1000px;
 }
 .ps{
-    color: #64ffda;
+    color: #ffffff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 900;
+    font-weight: 100;
     font-style: italic;
     font-size: xx-large;
+    margin-top: -80px;
+    margin-left: 600px;
+}
+.project{
+    height: 50vw;
+    background-color: #131E30;
+}
+.top2{
     padding-top: 10px;
-    margin-left: 240px;
+    color: #ffffff;
+     text-align: center;
+     font-size: xx-large;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: bolder;
+}
+.ab{
+    color: #32ca9c;
+    text-align: center;
+    margin-top: 300px;
+    font-size: xx-large;
+    font-weight: bolder;
 }
