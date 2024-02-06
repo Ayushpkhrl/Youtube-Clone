@@ -240,3 +240,51 @@ color: aqua;
     font-size: xx-large;
     font-weight: bolder;
 }
+#contact{
+    height: 45vw;
+    background-color: #131E30;
+    padding-top: 80px;
+    color: white;
+}
+.Email{
+    height: 90px;
+   background-color: #162c4e;
+   width: 300px;
+   margin-left: 130px;
+   padding-top: -10px;
+}
+.e{
+padding-top: 10px ;
+    
+}
+.gm{
+   
+margin-top: -70px;
+margin-left: 15px;
+}
+.phone{
+    height: 90px;
+    width: 300px;
+    background-color: #162c4e;
+    margin-left: 650px;
+    margin-top: -139px;
+}
+.pn{
+padding-top: 10px;
+}
+.num{
+    margin-top: -60px;
+}
+.ad{
+    height: 90px;
+    width: 300px;
+    background-color: #162c4e;
+    margin-left: 1200px;
+    margin-top: -139px;
+}
+.add{
+    padding-top: 10px;
+}
+.loc{
+    margin-top: -60px;
+}
